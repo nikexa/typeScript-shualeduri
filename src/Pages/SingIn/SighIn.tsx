@@ -33,7 +33,7 @@ const SighIn = () => {
   console.log(user);
   const OnClick = (data: data) => {
     if (user.email === data.email && user.password === data.password) {
-      navigate("/");
+      navigate("/home");
     }
   };
   return (
@@ -80,7 +80,7 @@ const SighIn = () => {
             )}
           </div>
           <button className="w-full h-[48px] rounded-lg bg-[#FC4747] font-normal text-[15px] text-white">
-            Create an account
+            Log In
           </button>
         </form>
         <div className="flex gap-2 mt-8">
@@ -88,7 +88,7 @@ const SighIn = () => {
             Don’t have an account?
           </p>
           <p className="font-normal text-[15px] text-[#FC4747]">
-            <Link to={"/singup"}>Sign Up</Link>
+            <Link to={"/"}>Sign Up</Link>
           </p>
         </div>
       </div>
