@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+.swiper {
+    height: 295px;
+    width: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 470px !important;
+    height: 230px !important;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    object-fit: cover;
+  }
+  .swiper-wrapper{
+    width: 100px !important;
+  }
